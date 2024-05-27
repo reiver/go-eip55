@@ -1,2 +1,4 @@
-sourcecode.social/reiver/go-hexadeca v0.0.0-20231028232543-4a9002165a7d h1:E9Ew42wfR62h2r1bE2IskhQCvI84iWR7/644J1Yz0/0=
-sourcecode.social/reiver/go-hexadeca v0.0.0-20231028232543-4a9002165a7d/go.mod h1:sKfUgLotB+YmpoJnNSEOIVvs9TV7OxWNfY/a+a7QvBo=
+golang.org/x/crypto v0.22.0 h1:g1v0xeRhjcugydODzvb3mEM9SQ0HGp9s/nh3COQ/C30=
+golang.org/x/crypto v0.22.0/go.mod h1:vr6Su+7cTlO45qkww3VDJlzDn0ctJvRgYbC2NvXHt+M=
+golang.org/x/sys v0.19.0 h1:q5f1RH2jigJ1MoAWp2KTp3gm5zAGFUTarQZ5U386+4o=
+golang.org/x/sys v0.19.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=

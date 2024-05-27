@@ -10,6 +10,19 @@ Online documentation, which includes examples, can be found at: http://godoc.org
 
 [![GoDoc](https://godoc.org/github.com/reiver/go-eip55?status.svg)](https://godoc.org/github.com/reiver/go-eip55)
 
+## Example
+
+Here is an example:
+```golang
+import "github.com/reiver/go-eip55"
+
+// ...
+
+var address [20]byte = // ...
+
+var addressHex string = eip55.Encode(address)
+```
+
 ## Import
 
 To import package **eip55** use `import` code like the follownig:
