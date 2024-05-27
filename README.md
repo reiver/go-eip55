@@ -23,6 +23,18 @@ var address [20]byte = // ...
 var addressHex string = eip55.Encode(address)
 ```
 
+Here is another example:
+```golang
+
+import "github.com/reiver/go-eip55"
+
+// ...
+
+if eip55.IsValid(addressHex) {
+	// ...
+}
+```
+
 ## Import
 
 To import package **eip55** use `import` code like the follownig:
