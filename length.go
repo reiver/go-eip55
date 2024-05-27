@@ -1,3 +1,3 @@
 package eip55
 
-const Length = 20
+const ArrayLength = 20

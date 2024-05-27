@@ -6,12 +6,9 @@ import (
 	"golang.org/x/crypto/sha3"
 )
 
-func Encode(src [Length]byte) string {
+func Encode(src [ArrayLength]byte) string {
 
-	const prefix string = "0x"
-	const lenprefix int = len(prefix)
-
-	var encoded [Length*2 + lenprefix]byte
+	var encoded [ArrayLength*2 + lenprefix]byte
 	{
 		copy(encoded[:lenprefix], prefix)
 		hex.Encode(encoded[lenprefix:], src[:])

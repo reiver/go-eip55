@@ -57,7 +57,7 @@ func TestEncode(t *testing.T) {
 
 	for testNumber, test := range tests {
 
-		var address [eip55.Length]byte
+		var address [eip55.ArrayLength]byte
 		{
 			var p []byte = address[0:0]
 			_, err := hex.AppendDecode(p, []byte(test.Address))
